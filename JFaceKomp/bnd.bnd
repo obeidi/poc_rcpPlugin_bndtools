@@ -1,0 +1,8 @@
+Bundle-SymbolicName: ${project.name};singleton:=true
+Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmmss}
+
+Private-Package: \
+    jfacekomp,\
+    jfacekomp.parts
+-runfw: org.eclipse.osgi;version='[3.13.200.v20181130-2106,3.13.200.v20181130-2106]'
+-runee: JavaSE-1.8
