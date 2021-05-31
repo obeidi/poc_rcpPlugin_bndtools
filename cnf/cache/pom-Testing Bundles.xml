@@ -1,0 +1,1118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Testing Bundles" increment="1622451190636">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="4.12.0.1" type="Version"/>
+      <attribute name="documentation" value="http://www.apache.org/"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.hamcrest.internal,org.hamcrest.core"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="1.1.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.hamcrest"/>
+      <attribute name="bnd.hashes" value="-366206901,515220737,-1789452028,1600917233,2587372,1142656251,-269945248,-1637731231,-1106348678,1980707797,-56677412,-606507625,572770538,2071941500,-1789452014,-748688648,819664212,-1774319861,977265264,447226155" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.hamcrest"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="1.1.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.hamcrest.internal"/>
+      <attribute name="bnd.hashes" value="951756231,-271425669,-1979006851,-485793781" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.hamcrest"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="1.1.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.hamcrest.core"/>
+      <attribute name="bnd.hashes" value="63352632,63424707,16449521,103005741,-756275534,-70059797,67339003,2378,869720556,-2135792586,-572150774,-1057350090,70921513,-2096394767,-2096265008,-1050048887,1313826160,-670536913,-1834239032,-500995647" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.experimental.theories"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.theories.suppliers"/>
+      <attribute name="bnd.hashes" value="-1081640304,-324908932" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runners.model"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.validator"/>
+      <attribute name="bnd.hashes" value="1776561347,1677413063,-221839969,2074637530,300994456,-2010153135,1353854126,1766485923,-629273076,1245648668" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.experimental.theories.internal,org.junit.internal,org.junit.runners.model,org.junit.runners,org.junit"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.theories"/>
+      <attribute name="bnd.hashes" value="1626591206,-1115280051,1911227543,2097794863,1556322421,-155090849,-1445164091,1129438571,1712869402,1175837795,-1790953211" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.experimental.theories,org.junit.runners.model,org.junit"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.theories.internal"/>
+      <attribute name="bnd.hashes" value="-1773927767,2146132548,-877724890,1739184628,1955640845,1804378399,1623739147" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.internal,org.junit.runner.notification,org.junit.runners.model,junit.framework,org.junit.runner.manipulation,junit.extensions,org.junit"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.runners"/>
+      <attribute name="bnd.hashes" value="881821620,-614957066,1616785980,-1645308632,-1740986829,580777205,1327947234,1116104861,-2010153135,902865369,797745126,-759322573" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.hamcrest,org.junit,org.junit.runners,org.junit.runner,org.junit.runner.notification"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal"/>
+      <attribute name="bnd.hashes" value="1765623816,1894243170,-1776693242,-1235299672,1328272327,-1882172158,68521149,1145255724,8021389,1242252577,1721084755" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.internal,org.junit.runner,org.junit.runners.model,org.junit.runner.notification"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.runners.model"/>
+      <attribute name="bnd.hashes" value="-1454264039,-413087691,-1940483341" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner.manipulation,org.junit.runner,org.junit.runners,org.junit.runners.model,org.junit.validator,org.junit.internal,org.junit"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.categories"/>
+      <attribute name="bnd.hashes" value="187238966,-1832239912,663618982,-1004985796,115155230,-1675954700,-1354798124,-1423355597,154023798,1943908609,2082669764" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runner.manipulation"/>
+      <attribute name="bnd.hashes" value="2104342424,440778994,-43258269,1726869528,-1812726037" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.runners.model,org.hamcrest,org.junit,org.junit.internal.matchers,org.junit.matchers,org.junit.internal,org.junit.internal.runners.statements"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.rules"/>
+      <attribute name="bnd.hashes" value="-778168372,-1009799291,2029437656,-1702954921,1323401792,-789261031,1270439837,-114266875,868802892,65203182,-1241791457,-639267347,-894992897,-1082327459,-1082189106,-1893733206,1423820029,1895597947,350741825,-1929739530" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runners.model,org.junit.runners,org.junit.runner.manipulation,org.junit.internal,junit.framework,org.junit.internal.runners,junit.runner,org.junit.runner.notification,org.junit.internal.requests,org.junit.internal.builders"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runner"/>
+      <attribute name="bnd.hashes" value="-534518981,-70179564,-56677412,16800368,1411356802,-992160174,-1523370376,1640971754,594357215,-836168275,-1534621073,1410803924,1933926536,-1850559427,-1080215087,-1835938992" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.internal.runners,org.junit.runners.model,org.junit.internal.runners.model,org.junit.runner.notification,org.junit,org.junit.internal.runners.rules,org.junit.rules,org.junit.runner,org.junit.internal.runners.statements,org.junit.internal,org.junit.runners.parameterized,org.junit.runner.manipulation,org.junit.validator,org.junit.internal.builders"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runners"/>
+      <attribute name="bnd.hashes" value="1852319008,1865535765,-2094529274,1143189191,-336538743,-1842766326,-663800695,420182169,1199931546,2117109294,80242392" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.internal.matchers,org.hamcrest.core,org.hamcrest"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.matchers"/>
+      <attribute name="bnd.hashes" value="-254849905" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runner.notification"/>
+      <attribute name="bnd.hashes" value="578079082,808454359,1615908927,534533235,1855112497,-1785159616,-1758204277" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.runner.notification,org.junit.internal,org.hamcrest"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.results"/>
+      <attribute name="bnd.hashes" value="-555603672,-661253020,1201285342" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.runners,org.junit.runners.model,org.junit.internal.runners,org.junit.internal.requests,junit.framework,org.junit.runner.notification"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.max"/>
+      <attribute name="bnd.hashes" value="-1592709848,-1786704125,169735657,1734290216,-200631632" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.runners.model,org.junit,org.junit.runner.notification,junit.framework,org.junit.internal.runners,org.junit.runners"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.builders"/>
+      <attribute name="bnd.hashes" value="1599646314,1993160707,-1994725751,1233537718,-31800618,1711009717,-736529420,-1136406654" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runners,org.junit.runners.model"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental.runners"/>
+      <attribute name="bnd.hashes" value="1773432693" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.internal,org.hamcrest,org.junit.runners"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit"/>
+      <attribute name="bnd.hashes" value="63182268,-785196772,1970626406,1970641612,1894243170,1985948575,546896153,1994217588,-1821587585,-1436646883,-1466486495,1559176120,-2106529294,2558748,2433880,2603186" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runners.model,org.junit,org.junit.rules"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.runners.rules"/>
+      <attribute name="bnd.hashes" value="1895597947,-553983354,-1264743177,1859860265,633285621,903040399,987982228,-1779486096,1534818338,1357504406,486244124,-1091259153" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.hamcrest,org.junit.internal"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.matchers"/>
+      <attribute name="bnd.hashes" value="889669568,221196745,-956684181,447226155" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.internal.builders,org.junit.runner.manipulation,org.junit.internal.runners"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.requests"/>
+      <attribute name="bnd.hashes" value="1295654423,1195415511,-501447541" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.runners.model,org.junit.runners"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.experimental"/>
+      <attribute name="bnd.hashes" value="1535860322" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.internal.runners.model,org.junit.internal,org.junit.internal.runners,org.junit.runner,org.junit"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runners.model"/>
+      <attribute name="bnd.hashes" value="705908467,-381544004,1253976600,1254191199,-1645308632,-413087691,1429986648,238969387,-1038889141,-81180337,-60223152,1308645559,797745126,1857788646" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runners,org.junit.runners.model,org.junit.runner.notification,org.junit.runner"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runners.parameterized"/>
+      <attribute name="bnd.hashes" value="668869573,-1108357755,1828103632,-2138835806" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.internal,org.junit.runners.model"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.junit.internal.runners.statements"/>
+      <attribute name="bnd.hashes" value="-1879207978,2181950,1895597947,1159800695,-1145837340,-493806695,662775906,-82540567" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="junit.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="junit.runner"/>
+      <attribute name="bnd.hashes" value="-1442842573,-1708452787,2016261304" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="junit.framework,junit.runner"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="junit.textui"/>
+      <attribute name="bnd.hashes" value="-424092387,-601573758" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="junit.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="junit.extensions"/>
+      <attribute name="bnd.hashes" value="-1752363776,-1695940788,1996703657,812331243" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner.manipulation,org.junit.runner,org.junit.runner.notification,org.junit,org.junit.internal"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="version" value="4.12.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="junit.framework"/>
+      <attribute name="bnd.hashes" value="1970626406,1385503625,-1436646883,-1466486495,564949367,-1402953653,-2023648062,976622729,2603186,-1082654974,188695672,-2070147194,-616194193,812797286" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.servicemix.bundles.junit"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="4.12.0.1" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.servicemix.bundles.junit"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.servicemix.bundles:org.apache.servicemix.bundles.junit:4.12_1"/>
+      <attribute name="from" value="org.apache.servicemix.bundles:org.apache.servicemix.bundles.junit:4.12_1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="4.12_1"/>
+      <attribute name="maven-artifactId" value="org.apache.servicemix.bundles.junit"/>
+      <attribute name="maven-repository" value="org.apache.servicemix.bundles:org.apache.servicemix.bundles.junit:4.12_1"/>
+      <attribute name="maven-groupId" value="org.apache.servicemix.bundles"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="369434" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.junit/4.12_1/org.apache.servicemix.bundles.junit-4.12_1.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="482CFEABE0C462D0796C269C60B9F6C808356759FECEAA73F83A5DB823C79B48"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.hamcrest:hamcrest-core"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.3.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.hamcrest:hamcrest-core:1.3"/>
+      <attribute name="from" value="org.hamcrest:hamcrest-core:1.3"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.3"/>
+      <attribute name="maven-artifactId" value="hamcrest-core"/>
+      <attribute name="maven-repository" value="org.hamcrest:hamcrest-core:1.3"/>
+      <attribute name="maven-groupId" value="org.hamcrest"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="45024" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="66FDEF91E9739348DF7A096AA384A5685F4E875584CCE89386A7A47251C4D8E9"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.objenesis"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator,org.objenesis.instantiator.annotations"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.android"/>
+      <attribute name="bnd.hashes" value="556734412,-1497086637,-1790489644,-320033665" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.annotations"/>
+      <attribute name="bnd.hashes" value="-82563042,-601721063" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator,org.objenesis.instantiator.annotations"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.basic"/>
+      <attribute name="bnd.hashes" value="-1846896908,-509757192,-785771006,1374565075,-1348131003,-1605598774,-2000608599,1063367575,2069660914" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator,org.objenesis.instantiator.annotations"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.gcj"/>
+      <attribute name="bnd.hashes" value="-170242548,593480232,-993271043,1625000128" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator"/>
+      <attribute name="bnd.hashes" value="-885348099,1277748540" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator,org.objenesis.instantiator.annotations"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.perc"/>
+      <attribute name="bnd.hashes" value="-1112949212,913113000" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator,org.objenesis.instantiator.annotations"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.sun"/>
+      <attribute name="bnd.hashes" value="-1101267413,-1825521887,-1565726415,-2023034437,1124323970" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="sun.misc"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.instantiator.util"/>
+      <attribute name="bnd.hashes" value="1096903334,596051595" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator,org.objenesis.strategy"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis"/>
+      <attribute name="bnd.hashes" value="524103192,-1033380599,-1638195945,-766035994,1471791562,1352155371" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.objenesis.instantiator"/>
+      <attribute name="bundle-symbolic-name" value="org.objenesis"/>
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis.strategy"/>
+      <attribute name="bnd.hashes" value="-974073310,1246968241,795989353,-1635218258,-151230951,952131636" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.objenesis"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="2.6.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.objenesis"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.objenesis:objenesis:2.6"/>
+      <attribute name="from" value="org.objenesis:objenesis:2.6"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.6"/>
+      <attribute name="maven-artifactId" value="objenesis"/>
+      <attribute name="maven-repository" value="org.objenesis:objenesis:2.6"/>
+      <attribute name="maven-groupId" value="org.objenesis"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="55684" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="5E168368FBC250AF3C79AA5FEF0C3467A2D64E5A7BD74005F25D8399AEB0708D"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=sun.misc)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="sun.misc"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=COM.newmonics.PercClassloader)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="COM.newmonics.PercClassloader"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=sun.reflect)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="sun.reflect"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.mockito.mockito-core"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito.exceptions.misusing,org.mockito.invocation,org.mockito.listeners,org.mockito.mock,org.mockito.plugins,org.mockito.session,org.mockito.stubbing,org.mockito.verification"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito"/>
+      <attribute name="bnd.hashes" value="1231056430,304520936,817254485,1239526786,58907541,1826133886,-1443311845,873962663,-400378241,318256447,2605629,1173697021,-1589926856,2011186277,621294617,-706047735,1684966116,207509752,361562529,2403754,-1443462163,50385194,-1404104006,454752266,-1688792837,-69111708,-719560068,-2071214578,83356" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito.plugins,org.mockito.stubbing"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.configuration"/>
+      <attribute name="bnd.hashes" value="75085425,-592026627,-103591387" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.base"/>
+      <attribute name="bnd.hashes" value="549678464,866340533,-1851687051,1990006563" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito.exceptions.base"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.misusing"/>
+      <attribute name="bnd.hashes" value="-670366283,-1282800704,8606322,-1865103257,-262562728,-689223853,85078167,586276915,1566730483,-220981074,-794158618,133500694,-785010935,196742123,1884560547" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.stacktrace"/>
+      <attribute name="bnd.hashes" value="-1083916743" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito.exceptions.base"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.verification"/>
+      <attribute name="bnd.hashes" value="-945282917,793440198,36105841,-796267134,-1751814325,1031742978,657511228,154440555" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="junit.framework"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.verification.junit"/>
+      <attribute name="bnd.hashes" value="-945282917" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.hamcrest"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.hamcrest"/>
+      <attribute name="bnd.hashes" value="2031057277" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito,org.mockito.mock"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.invocation"/>
+      <attribute name="bnd.hashes" value="-1388471223,-562801488,-1902420559,649580090,-1372606247,1965687765,1608328815,45772352,1937981084" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.rules,org.junit.runner,org.junit.runner.manipulation,org.junit.runner.notification,org.mockito,org.mockito.exceptions.base,org.mockito.quality"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.junit"/>
+      <attribute name="bnd.hashes" value="-1511216524,-1818460043,-1808119063,-653968356,-215363900,-187027242,2063668370" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito,org.mockito.invocation,org.mockito.mock,org.mockito.verification"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.listeners"/>
+      <attribute name="bnd.hashes" value="-503067260,1637477637,-1599887747,-890445426,-1973164017,-484349836,-1402681190" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito,org.mockito.listeners,org.mockito.stubbing"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.mock"/>
+      <attribute name="bnd.hashes" value="-1511416340,-578373803,-296176798" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito,org.mockito.exceptions.stacktrace,org.mockito.invocation,org.mockito.mock"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.plugins"/>
+      <attribute name="bnd.hashes" value="75085425,-1528325073,-823888730,-750644038,1114789766,1874981991,-1308500150" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.quality"/>
+      <attribute name="bnd.hashes" value="-187336607,118241472" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit.runner,org.junit.runner.manipulation,org.junit.runner.notification,org.mockito.junit"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.runners"/>
+      <attribute name="bnd.hashes" value="-1828502279,-1818460043,-1808119063,-215363900,-108590170,-1923478059" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito,org.mockito.exceptions.misusing,org.mockito.quality"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.session"/>
+      <attribute name="bnd.hashes" value="1755292031" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito,org.mockito.invocation"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.stubbing"/>
+      <attribute name="bnd.hashes" value="1966025694,817254419,817254420,817254421,817254422,817254423,959700585,-214555391,1938721294,776098452,-2056685601,-2056685600,-2056685599,-2056685598,-2056685597" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mockito"/>
+      <attribute name="bundle-symbolic-name" value="org.mockito.mockito-core"/>
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.verification"/>
+      <attribute name="bnd.hashes" value="63182268,350741825,-1487419998,-1920301793,-200260994,-1531525426,811484288" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.mockito.mockito-core"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="2.13.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.mockito.mockito-core"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.mockito:mockito-core:2.13.0"/>
+      <attribute name="from" value="org.mockito:mockito-core:2.13.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.13.0"/>
+      <attribute name="maven-artifactId" value="mockito-core"/>
+      <attribute name="maven-repository" value="org.mockito:mockito-core:2.13.0"/>
+      <attribute name="maven-groupId" value="org.mockito"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="538268" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="92A746B37CF8C5730A5E7B35FD7D8CD72700089435FF92EE03ED8384D4EB3377"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.agent)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.agent"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.asm)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.asm"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.description)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.description.field)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.field"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.description.method)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.method"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.description.modifier)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.modifier"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.description.type)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.type"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.dynamic)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.dynamic.loading)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic.loading"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.dynamic.scaffold)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic.scaffold"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.implementation)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.implementation.attribute)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.attribute"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.implementation.bind.annotation)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bind.annotation"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.implementation.bytecode.assign)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.assign"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.jar.asm)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.jar.asm"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.matcher)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.matcher"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.pool)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.pool"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=net.bytebuddy.utility)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.utility"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=junit.framework)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="junit.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit.rules)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit.rules"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit.runner)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runner"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit.runner.manipulation)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runner.manipulation"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit.runner.notification)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runner.notification"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit.runners)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runners"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.junit.runners.model)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.junit.runners.model"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.hamcrest)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.hamcrest"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.objenesis)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.objenesis"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.exceptions.misusing)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.misusing"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.exceptions.stacktrace)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.exceptions.stacktrace"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.invocation)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.invocation"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.listeners)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.listeners"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.mock)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.mock"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.quality)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.quality"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.session)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.session"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mockito.stubbing)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.mockito.stubbing"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="net.bytebuddy.byte-buddy-agent"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy-agent"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.agent"/>
+      <attribute name="bnd.hashes" value="603382226,-527039472,620597777,1434978294,1111511918,-1493415212,1419317782,-1818419758,1002405936,-2081792409,-534696501,986127471,413481537,1907929760,-1760603339,-357847980,335584924,-551565195,1542484272,33610130,332525609,286623591,-322150048,3066663,2033014632,-1929035737,-54807034,-740059428" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="net.bytebuddy.byte-buddy-agent"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.host" value="net.bytebuddy.byte-buddy-agent"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="net.bytebuddy:byte-buddy-agent:1.7.9"/>
+      <attribute name="from" value="net.bytebuddy:byte-buddy-agent:1.7.9"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.7.9"/>
+      <attribute name="maven-artifactId" value="byte-buddy-agent"/>
+      <attribute name="maven-repository" value="net.bytebuddy:byte-buddy-agent:1.7.9"/>
+      <attribute name="maven-groupId" value="net.bytebuddy"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="42938" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="AC1A993BEFB528C3271A83A9AD9C42D363D399E9DEB26E0470E3C4962066C550"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=com.sun.tools.attach)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="com.sun.tools.attach"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=com.ibm.tools.attach)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="com.ibm.tools.attach"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy"/>
+      <attribute name="bnd.hashes" value="-1445501401,140655402,-533800519,-73931138,187041868,-2103459307,-551565195,332525609,-537100098,167510852,-593764813,-1258995501,-1211550746,1098263982,1272062769,-123679422,1453581044,-1758794693,-1140690331,-120430803,2582974,-1487181308,-1145598272,-1798060984" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.agent.builder"/>
+      <attribute name="bnd.hashes" value="-1085510111,2135814083,89309323,1666423642,335584924,55059233,-1756379706,-32608068,1633154211,-2103459307,-551565195,332525609,572770538,1412400979,980675399,-1983171865,-1445047761,-1294413669,1564361611,-447055093,-534696501,-877898574,-1989201518,2582974,-1116602959,393434316,424121927,-1818419758,1621876521,-1692157674,266198963,-1143938708,1451321741,1969895528,1069072743,775538247,1165858671,-813327005,-554569579,169939860,826233941,375031995,1812145942,780924615,-1565776511,2432930,2085790097,66714904,2361236,80095994,116141771,-830895021,514145071,-1169523195,-1419902692,-728964818,1867279892,1237836135,2135425084,-1830342100,-552509636,1614685562,-1648908382,1923063758,903968327,143363354,1122605386,-1215246283,1410803924,-991753406,1137796712,-593764813,-1676598145,536612036,-552363162,-573696049,-1964069194,1265690050,149029044,1007511714,-353058339,-12973069,605210153,1282885642,-1854873704,609938693,93179943,376478444,-1069497762,516053019,386726104,878715709,878698305,-454634065,1982099473,-1339223281,-1272204603,-1085995434,-407507859,-1864447404,-1717963178,-1717945774,-1690316348,-1387998055,-1465115357,275268030,322871129,322853725,248604279,874460435,-2110696107,592941921,-1577473076,-412495116,1788871669,622842268,-1140690331,-15993459,1648530355,-1487181308,-2093436326,2090168946,741176697,1443399753,170584833,67115090,-1736271103,2126730968,-331680519,-833920669,-1276243731,1971656950,199501603,-514778108" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.asm"/>
+      <attribute name="bnd.hashes" value="959502862,-1994579316,-273289924,786896510,898332726,-776947499,574469469,1237836135,-1525038371,-985077234,660969256,804345003,64375134,-44872212,-938879743,-1588362045,-276684776,-911832798,89309323,-532482710,1686001262,-450340859,1988068847,-1043253600,409592118,335584924,986487683,692318997,517475912,1713575334,2432930,-349410125,2106925293,1238237879,-1116602959,780924615,67114680,-1733531465,-1736271103,-1085510111,711818192,-795104184,-1138400260,-985076824,-1678783089,876683378,-736908458,-1818419758,572770538,-1993140226,1307844230,557126402,-696483948,-1888524603,502930897,626665961,-1015342588,636011768,-39384435,661215381,902547262,-751506041,-2073947986,-430201629,-1322922705,-1529060936,583113316,-1845140357,-1641566393,1597708444,1879510714,-1425319900,-1626697065,-35647278,1638600171,-803039614,883080137,498593584,-1710997767,1647940165,-1797038671,-511655781,306176847,326918904,-1513465602,2146193182,-1924752570,-1850529456,1719048148,-692856559,-40503997,2605758,-1790565784,-1756302858,105137367,1956866328,-593764813,-534696501,1109402182,67115090,756393919,2091795612,-916659290,-2057027025,1283048320,432215185,361698258,49450646,149029044,771915786,-704250812,53457750,1938721294,-276684762,990467869,1823434155,-860755015,-1983364296,-969802564,-857869204,995553663,994545916,-1618073285,-236812585,-324417139,1491519154,657795012,-2092981503,481963682,-1274294997" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.build"/>
+      <attribute name="bnd.hashes" value="-1085510111,14135390,-1901307053" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description"/>
+      <attribute name="bnd.hashes" value="2145212951,80988633,-1605255743,-751075833,-1773299413,-593764813,-1507266197,806725298,-38330660,258565430,-471750097,-1748670672,1769707472,1079925513,100912188,934337041,-243816003,-652324445,2432930,2131414094,443171761" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.annotation"/>
+      <attribute name="bnd.hashes" value="1617974278,-593764813,-991075381,-320744181,1895597947,1572035549,1910627168,-2026013940,1799163181,67081517,-1864447404,1488461878,442739853,477242442,644647833,-2013651931,1723378724,-1795892598,-1193369553,453361306,-1965251731,1305739910,-264497895,-1864389826,-916762503,80204913,1964041779,849023842" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.enumeration"/>
+      <attribute name="bnd.hashes" value="-593764813,-320491687,-2026013940,484928341" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.field"/>
+      <attribute name="bnd.hashes" value="-593764813,162986892,71826685,-570457617,-2026013940,-1713917887,80988633,-1571478703,1118588610,67081517,-1864447404,757626471,-1182489693,-1026041704" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.method"/>
+      <attribute name="bnd.hashes" value="-593764813,861764876,954779791,71826685,-570457617,1295224616,-2026013940,-1713917887,80988633,-1571478703,-1781936449,603845691,67081517,-1864447404,-466597436,-1182489693,1270249791,-2103459307,-355051690,332525609,780924615,-1343003261,-1551742973,-1783578824,-1419562568,1085502779,-611914984,-1005717325,516347216,-628624136,419302343" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.modifier"/>
+      <attribute name="bnd.hashes" value="-1842388310,1769194348,1549602149,1359080789,1022488229,278096001,502930897,-1391857942,1583475968,986487683,-276684762,156397924,2022529871,420656413,-1059844732,824939057,-338658196,-195985172,-360169678" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.description.type"/>
+      <attribute name="bnd.hashes" value="-593764813,2065773144,-1818419758,1502112758,2582974,151706219,788671565,1496008366,-730912413,-408849048,1668258408,-798554017,-1891512576,1633154211,-2103459307,216297105,-1757256260,457016955,-1789448709,2129995554,-951468715,601342152,-276684776,-355051690,332525609,780924615,-836825170,-353329692,-1574950048,250847164,272654713,1282849882,-169192487,2432930,438768882,277502259,-1726214533,148359772,-1165422739,1895597947,396253414,169318712,1382821739,2022961510,56496337,-761289893,-1247668314,1299539523,1299793119,-2028390031,-124641490,-1676596597,2040874243,-2026013940,-1272894887,1646947968,492275482,588648242,1805984382,1158011177,406985745,348185574,1852629202,-14773797,1128071343,1376436398,1678499787,428134369,-882760844,-1342326261,269711789,-36842111,-1373460020,-1649249595,-1445221243,1262172650,-1234854113,-305237508,-167703911,-1505518674,1177246559,-700861245,-570912903,-579122516,173350138,-1788833619,528686843,198042232,165885542,1704815647,170498094,900438313,-153925727,894184242,2131414094,1584505271,1380272745,-115608612,-2113788147,775538247,-1663341502,67081517,-1864447404,176403211,-1495163974,-1768366426,-1134171650,-166870711,-1746517555,214958780,-668070590,-611914984,15209379" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic"/>
+      <attribute name="bnd.hashes" value="-1085510111,-1864447404,-2103459307,1281140271,-276684776,-1116602959,780924615,260038688,1380272745,-1719824372,783587278,-534696501,-900122754,-991753406,-1583269257,1317151054,-1383086987,513797009,2432930,1322701839,-736908458,393434316,-1818419758,154321666,420548802,-1869916220,-1513984768,-2025587561,-737765399,-1273735222,1587869563,-647077525,630599915,1147018534,514145071,1633154211,-593764813,-1345635090,-14372992,-229967411,-898772254,-1029084475,705908467,-681971932,671337916,-966577124,-1791011351,1138901300,1895597947,-2013651931,-146371586,1409209337,75162591,1270065833,1002405936,-1445501401,1148121926,-1814880117,945961608,-1685317937,502930897,1754748673,1733997995,1613969150,365407420,-508095060,-1391857942,-331680519,1955883814,335584924,2361236,872613639,-1861914311" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic.loading"/>
+      <attribute name="bnd.hashes" value="173265907,-969762028,-943693087,1415581402,-2103459307,-551565195,332525609,667612371,-1986130148,345427628,641607896,-351402037,-865760932,-158538185,1281140271,426275283,-573437734,-1797038671,1003578986,-1601759220,780924615,1885497086,2047248393,180673902,1002405936,2079606703,335584924,55059233,2142345002,-2107450196,1335028569,-334096706,-1960373085,-1085510111,1766801042,1451726312,-1946218409,-227499479,1681078523,-1510298220,1852442515,670413764,504124020,1895597947,-2089580676,-194308015,873601063,-1818419758,605210153,965837104,979046771,-1211550746,2042311422,861283672,-570543576,1152347453,2432930,384779436" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic.scaffold"/>
+      <attribute name="bnd.hashes" value="-593764813,572770538,474494118,-718868432,-1043202478,2432930,-736908458,-1818419758,393434316,630389340,-534884175,67115090,-1085510111,-229061833,2112749248,355561153,652539132,-1042446528,80988633,-1505177031,487372588,1854713361,1109192594,1854713347,2433570,-646830612,-681971932,-276684776,69062958,80218305,75327,36034506,-1993748646,-2057027025,-534884161,67081517,-911832760,-2018799047,2582974,-1116602959,1187472864,718671053,-1214908323,411209900,1595602841,151236795,-1129790460,-1937510614,-1273446306,66292184,2433880,1295224616,1759526771,2368706,422981288,-1228709140,1955883814,2021399272,1640913952,494619389,1426533311,-1403288398,-1644029392,-281781656,1885065945,1578160746,229061301,99666892,-1350761993,1487629020,-1052492577,-943754972,-1810775925,-534696501,-170664776,500246095,1836623341,131638928,875029559,1803088381,-1514642905,1879411354,-1606651927,-923025155,778420204,-1851041679,-1025916906,-1243265840,-1513043302,271532454,1496064347,635395410,1965423877,-876613720,-330190230,105145889,-1984670849,1270374589,683157613" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic.scaffold.inline"/>
+      <attribute name="bnd.hashes" value="-1647517990,71284106,713827312,1407398609,-923517363,-1085510111,335584924,-970100070,1024200451,-937618879,15112248,1082145656,393434316,-1982049525,180458580,1516406790,572770538,-923514447,-43932249,-1328103480" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.dynamic.scaffold.subclass"/>
+      <attribute name="bnd.hashes" value="-1999610866,-1085510111,746458477,-56231919,170658490,572770538,-1777333306,-522892453" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation"/>
+      <attribute name="bnd.hashes" value="1237836135,-767018016,-943439998,-1435300480,-1806948970,1375571440,-1757789355,1792766359,-1214908323,-489791764,-1932772689,2137872622,-1211550746,-1136307937,1323827619,898217926,165947807,-1207121568,-465115698,-1685285567,1307844230,663384449,-499801847,2139026444,-940245302,147244712,517475912,-602464643,1550505261,-534696501,516848159,-940019160,385116528,599697163,491244473,572770538,789352074,1669593733,-1765088883,2013143545,698435585,-1085510111,335584924,-593764813,85822080,-1678783089,-1818419758,-736908458,978520842,-225341294,-1797038671,681342930,502930897,-842312610,-1782437515,1388399265,-415872822,-1544877453,-713709565,632345621,-2027635644,-2006208749,1037789086,-171060685,-696483948,-544144393,659310361,479562387,129114691,89023279,276989321,1800670175,374490647,783354846,-1400669028,-276684776,541720558,-860828120,-109262983,235634108,-860626217,816981179,806725298,1458245313,-1986813781,1876922972,453502420,86395203,-1696654420,-1888524603,-1253872505,828241603,2432930,542311523,851460830,218249602,626665961,543357342,711818192,-825423430,-1080854986,868683634,-992139294,-1710929516,1597708444,-1425319900,1509655888,445872394,-39760439,1237552323,-1588439982,833008313,-1934855265,1648144702,-788773803,548190116,1700878870,-499255207,739463577,1269973759,1247134746,1273546613,-534884175,-1053698149,-325585408,102839352,1896400759,-1988495222,-751978231,-1509365937,964076536,1483967642" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.attribute"/>
+      <attribute name="bnd.hashes" value="-1085510111,-153925727,315428411,1385499584,267190217,-1929054759,-1797038671,-1504646730,1498087567,572770538,1716599162,-534696501,-1864447404,-2061607893,2432930,750931529,711818192,-1806888686,1918252290,-184988321,626665961,1871006665" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.auxiliary"/>
+      <attribute name="bnd.hashes" value="1453581044,-1758794693,-203348139,228110592,-1516930355,1237836135,1350889816,1269973759,-2067936195,-1960337745,-1280733949,218531297,-1755065255,-582368752,-1236441099,-1085510111,649580090,734147800,563207654,-1785536716" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bind"/>
+      <attribute name="bnd.hashes" value="-1872368464,1176862091,782862557,1229252231,-534696501,36034506,2432930,393434316,-771059085,-1085510111,-1419902692,-1756661775,-324980341,64542286,1895597947,-736908458,-1235413436,-1818419758,2130818795,833008313,-91843507,1381111484,909208690,-1851041679,898217926,-1326313453,1712433772,1902661877" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bind.annotation"/>
+      <attribute name="bnd.hashes" value="-1275239699,1989870026,-776947499,-913963767,-1525038371,-276684762,-1149112535,1372287066,986487683,-1561536548,-1085510111,-1864447404,-360779259,-1217817644,1230398495,348598345,-860626217,-2052666872,-788773803,1587170914,67081517,2051040327,1237836135,1669593733,2058277856,-536437530,572770538,-1563621612,-1723946451,-1220071800,-1116602959,119822080,2013143545,652513653,1686208846,-1738563148,883966373,-1733531465,-1929739530,-769723122,1269973759,-521492670,74531048,-1924752570,1350889816,-656741748,2487758,-1872244974,-40503997,626665961,1735507245,80248667,1670596697,-584119268,64375134,-588611586,1371535973,-1937510614,-377695190,-1032443020,1475373755,-1211550746,-1063826797,-1851041679,332594255,2605758" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode"/>
+      <attribute name="bnd.hashes" value="-1161945316,-534696501,-1818419758,2577441,-626983012,-876497293,1143667470,-1538478132,-736908458,605210153,1394828837,-563105143,80787142,-1243620263" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.assign"/>
+      <attribute name="bnd.hashes" value="-1109301487,-643126287,-1774931561,-305237508,-1344611447" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.assign.primitive"/>
+      <attribute name="bnd.hashes" value="652529838,-134222461,-402671815,-932945411,1419665006,-1733651802,177237660,-1957294370,840430483,-1074529018" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.assign.reference"/>
+      <attribute name="bnd.hashes" value="804133205" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.collection"/>
+      <attribute name="bnd.hashes" value="-2013651917,-1893012782,1861211389,-1484457320,-942318852,-225815629,331971852,1948714129,-393458580" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.constant"/>
+      <attribute name="bnd.hashes" value="-942318852,1336027420,-494805040,74895872,1567895221,2010787138,-106660194,-1496875520,1736551626,1197572750,-87268638,1413296395,1493182048,914412888,1363833027,-88209998,-2012792476,-1622337647,-1391857942,-1151044667,-494736789,1529197928,-671718383" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.implementation.bytecode.member"/>
+      <attribute name="bnd.hashes" value="-415807594,-1564071214,2076354937,-26246325,-1085278743,-1268557574,1495451358,-1857719048,1693315599,-313984606,-1090368378,-562801488,-473425695,-498432346,-402946959,1107452305,1565731267,2432930,1817032577,-790542085,428528230,-1012561655,253796521,-965813663" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.matcher"/>
+      <attribute name="bnd.hashes" value="-589225948,796747209,-1820326902,1627065182,1002706067,-1689855256,1858534237,1529618676,-800387097,88880385,-832760913,1101465683,-1898601924,1472488447,1653069002,752978577,-1245913382,1993712291,-593764813,-1964069194,1265690050,-173110412,-1404749130,-597549955,-1214400840,560212393,-1272724793,116172638,67081517,249306288,-607628105,188052329,-1363314525,-76274141,1917662714,1950918312,-971203281,-1540566864,-276684776,-292069242,2099782506,-1449942907,-766409776,-1580188095,606357735,887434823,2582974,120958451,2403779,621823547,-1613534201,511342803,-126612085,-1163536975,1732832193,-273995176,1279749693,-2146228742,-170605152" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.pool"/>
+      <attribute name="bnd.hashes" value="-1443685857,1021957033,-1803500966,-928918700,-2013651931,-987263003,-370619415,1830903698,93450031,-593764813,2432930,-1818419758,1893705587,536612036,-1590044736,-1398787188,-1234854113,-4496834,1707791706,64375134,-1676679507,-1795892598,-736908458,-345383201,86395203,-655347308,855191406,-110275889,-1419562568,824438014,-357363864,-1936442927,702599695,-1701775700,-1710503802,-306382971,-2113084853,-1043202478,-1220058341,635711379,-1938391431,-93940452,393434316,847592426,-1734962881,1552023165,1535943798,-1342326261,116894379,797277312,-1392174497,-1965077225,1262172650,1842568589,-1484457320,-167703911,1477682286,-186257651,1643415946,2110055439,-2133246937,-858342069,1620394902,365259434,1045642367,-1675402853,-1530488573,250847164,2146092777,502930897,-1391857942,986487683,-93824101,206213660,1146449098,81928,-1222825240,1910627168,386091545,-1038700970,-937867801,-1051300281,404092083,-1845297803,1744237550,-1847621849,-1478936950,239345324,121029616,730596728,-759124426,2145212951,1524267444,1432416008,-498908569,2075425100,502945381,269064312,899467822,-1371957313,2005649702,276653481,-2107389677,-1661472875,1157927530,-1153220061,-748875798,-1884163232,707628486,-1085510111,67081517,-1864447404,-1294621362,-611790186" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.utility"/>
+      <attribute name="bnd.hashes" value="1829991689,-593764813,-2103459307,-158538185,-355051690,332525609,1281140271,780924615,-313984606,817271433,1270503387,1305216006,335584924,55059233,1105229646,-517066596,-390289708,-1110314779" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.utility.privilege"/>
+      <attribute name="bnd.hashes" value="-85153584,-1285379602" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.utility.visitor"/>
+      <attribute name="bnd.hashes" value="-767394538,-138268196,730672919" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="net.bytebuddy.byte-buddy"/>
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.package" value="net.bytebuddy.jar.asm"/>
+      <attribute name="bnd.hashes" value="103284255,594174114,2017053308,-1734073205,872586299,666722294,1027991531,-1678783089,1610077076,2154973,758731316,2139338221,68139341,-2140710328,-1937510614,2289459,73174740,-660431827,1262274772,-367623102,1548814879,399646405,2622298,-611803489,-1421180655" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="net.bytebuddy.byte-buddy"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.7.9" type="Version"/>
+      <attribute name="osgi.wiring.host" value="net.bytebuddy.byte-buddy"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="net.bytebuddy:byte-buddy:1.7.9"/>
+      <attribute name="from" value="net.bytebuddy:byte-buddy:1.7.9"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.7.9"/>
+      <attribute name="maven-artifactId" value="byte-buddy"/>
+      <attribute name="maven-repository" value="net.bytebuddy:byte-buddy:1.7.9"/>
+      <attribute name="maven-groupId" value="net.bytebuddy"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="2924116" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="2EA2ADA12B790D16AC7F6E6C065CB55CBCDB6BA519355F5958851159CAD3B16A"/>
+    </capability>
+  </resource>
+</repository>
