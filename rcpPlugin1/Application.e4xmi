@@ -3,7 +3,7 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="rcpPlugin1.window.main" label="Eclipse RCP Application" width="500" height="400">
     <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="rcpPlugin1.partsashcontainer.sample">
       <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="rcpPlugin1.partstack.sample">
-        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="rcpPlugin1.part.sample" contributionURI="bundleclass://rcpPlugin1/rcpplugin1.parts.SamplePart" iconURI="platform:/plugin/rcpPlugin1/icons/home.png" label="Sample Part"/>
+        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="rcpPlugin1.part.sample" contributionURI="bundleclass://rcpPlugin1/rcpplugin1.parts.SamplePart" label="Sample Part" iconURI="platform:/plugin/rcpPlugin1/icons/home.png"/>
       </children>
     </children>
     <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
@@ -15,6 +15,7 @@
       <children xsi:type="menu:Menu" xmi:id="_6wlLjsgZEeSyMNYR5xypkQ" elementId="help" label="Help">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLj8gZEeSyMNYR5xypkQ" elementId="rcpPlugin1.handleditem.about" label="About" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
       </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_DvOtgMHuEeuHmMTXwto-ow" elementId="rcpplugin1.handledmenuitem.0"/>
     </mainMenu>
     <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="rcpPlugin1.trimbar.top">
       <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
