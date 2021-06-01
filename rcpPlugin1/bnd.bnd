@@ -13,3 +13,5 @@ Private-Package: \
     rcpplugin1.handlers,\
     rcpplugin1.parts
 
+-runfw: org.eclipse.osgi;version='[3.16.100.v20201030-1916,3.16.100.v20201030-1916]'
+-runee: JavaSE-1.8

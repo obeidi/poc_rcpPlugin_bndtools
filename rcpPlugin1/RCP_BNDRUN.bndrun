@@ -18,7 +18,9 @@
 	osgi.identity;filter:='(&(osgi.identity=bndtools.runtime.applaunch.eclipse4)(version>=0.1.0))',\
 	${fea_org.eclipse.e4.rcp_1.6.300.v20181204-1801},\
 	${fea_org.eclipse.e4.rcp_1.6.300.v20181204-1801_PLATFORM_macosx.cocoa.x86-64},\
+	bnd.identity;id='plugin1',\
 	osgi.identity;filter:='(&(osgi.identity=rcpPlugin1)(version>=0.1.0))'
+
 
 -runbundles: \
 	bndtools.runtime.applaunch.eclipse4;version='[0.1.0,0.1.1)',\
@@ -93,3 +95,4 @@
 	org.w3c.dom.events;version='[3.0.0,3.0.1)',\
 	org.w3c.dom.smil;version='[1.0.1,1.0.2)',\
 	org.w3c.dom.svg;version='[1.1.0,1.1.1)',\
+	plugin1;version=snapshot
