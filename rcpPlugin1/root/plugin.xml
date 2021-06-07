@@ -6,7 +6,20 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="org.eclipse.e4.ui.workbench.swt.E4Application" name="">
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="rcpPlugin1">
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://rcpPlugin1/rcpplugin1.E4LifeCycle">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/rcpPlugin1/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="rcpPlugin1">
+         </property>
       </product>
    </extension>
 

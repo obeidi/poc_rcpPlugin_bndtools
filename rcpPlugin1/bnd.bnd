@@ -5,13 +5,21 @@
 
 -includeresource: ./root/
 
-Bundle-SymbolicName: ${project.name};singleton:=true
-Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmmss}
+Bundle-SymbolicName: rcpPlugin1;singleton:=true
 
 Private-Package: \
     rcpplugin1,\
     rcpplugin1.handlers,\
     rcpplugin1.parts
 
+#Include-Resource: plugin1
+Bundle-Version: 1
+
+ Fragment-Host:  plugin1;version=1
+ Import-Package: plugin1;version=1
+
+-resolve.effective: active
+
 -runfw: org.eclipse.osgi;version='[3.16.100.v20201030-1916,3.16.100.v20201030-1916]'
 -runee: JavaSE-1.8
+-runrequires: osgi.identity;filter:='(&(osgi.identity=rcpPlugin1)(version>=0.1.0))'

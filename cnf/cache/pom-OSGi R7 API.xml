@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 API" increment="1622568818982">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 API" increment="1623052351757">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="Apache-2.0; link=&quot;http://www.apache.org/licenses/LICENSE-2.0&quot;; description=&quot;Apache License, Version 2.0&quot;"/>
