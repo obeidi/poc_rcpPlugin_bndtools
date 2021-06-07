@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 Reference Implementations" increment="1622568826891">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 Reference Implementations" increment="1623076471003">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
@@ -4057,31 +4057,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="org.apache.ant:ant-nodeps"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="1.7.1" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="org.apache.ant:ant-nodeps:1.7.1"/>
-      <attribute name="from" value="org.apache.ant:ant-nodeps:1.7.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.7.1"/>
-      <attribute name="maven-artifactId" value="ant-nodeps"/>
-      <attribute name="maven-repository" value="org.apache.ant:ant-nodeps:1.7.1"/>
-      <attribute name="maven-groupId" value="org.apache.ant"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="431580" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/ant/ant-nodeps/1.7.1/ant-nodeps-1.7.1.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="E5B68AC01C2EA157C94854B0D76C6F09F90E36CADCC81AE351E05CAC76175472"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="log4j:log4j"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.2.6" type="Version"/>
@@ -4103,6 +4078,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/log4j/log4j/1.2.6/log4j-1.2.6.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="DE9639BBF4179BF880E9649FC7E92B8FA6875212E9D1BCBB59DEE8707CB17832"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.ant:ant-nodeps"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.7.1" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.ant:ant-nodeps:1.7.1"/>
+      <attribute name="from" value="org.apache.ant:ant-nodeps:1.7.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.7.1"/>
+      <attribute name="maven-artifactId" value="ant-nodeps"/>
+      <attribute name="maven-repository" value="org.apache.ant:ant-nodeps:1.7.1"/>
+      <attribute name="maven-groupId" value="org.apache.ant"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="431580" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/ant/ant-nodeps/1.7.1/ant-nodeps-1.7.1.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="E5B68AC01C2EA157C94854B0D76C6F09F90E36CADCC81AE351E05CAC76175472"/>
     </capability>
   </resource>
   <resource>
@@ -4484,31 +4484,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="msv:relaxngDatatype"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="20030807.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="msv:relaxngDatatype:20030807"/>
-      <attribute name="from" value="msv:relaxngDatatype:20030807"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="20030807"/>
-      <attribute name="maven-artifactId" value="relaxngDatatype"/>
-      <attribute name="maven-repository" value="msv:relaxngDatatype:20030807"/>
-      <attribute name="maven-groupId" value="msv"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="19097" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/msv/relaxngDatatype/20030807/relaxngDatatype-20030807.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="4D45A93EB5CDC32631966673C954B83FC9B60A0681BBDDCEFA2C4976D04CDDF2"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="xalan:serializer"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="2.7.1" type="Version"/>
@@ -4533,6 +4508,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="A15078D243D4A20B6B4E8AE2F61ED4655E352054E121AADA6F7441F1ED445A3C"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="msv:relaxngDatatype"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="20030807.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="msv:relaxngDatatype:20030807"/>
+      <attribute name="from" value="msv:relaxngDatatype:20030807"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="20030807"/>
+      <attribute name="maven-artifactId" value="relaxngDatatype"/>
+      <attribute name="maven-repository" value="msv:relaxngDatatype:20030807"/>
+      <attribute name="maven-groupId" value="msv"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="19097" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/msv/relaxngDatatype/20030807/relaxngDatatype-20030807.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="4D45A93EB5CDC32631966673C954B83FC9B60A0681BBDDCEFA2C4976D04CDDF2"/>
     </capability>
   </resource>
   <resource>
@@ -10710,31 +10710,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="avalon-framework:avalon-framework"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="4.1.5" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="avalon-framework:avalon-framework:4.1.5"/>
-      <attribute name="from" value="avalon-framework:avalon-framework:4.1.5"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="4.1.5"/>
-      <attribute name="maven-artifactId" value="avalon-framework"/>
-      <attribute name="maven-repository" value="avalon-framework:avalon-framework:4.1.5"/>
-      <attribute name="maven-groupId" value="avalon-framework"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="73425" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/avalon-framework/avalon-framework/4.1.5/avalon-framework-4.1.5.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="833F1E50DFA628F13D4A4206B3EC6D8F42E96284A35D76C072D880804B747A04"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="junit:junit"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="4.11.0" type="Version"/>
@@ -10756,6 +10731,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="90A8E1603EECA48E7E879F3AFBC9560715322985F39A274F6F6070B43F9D06FE"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="avalon-framework:avalon-framework"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="4.1.5" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="avalon-framework:avalon-framework:4.1.5"/>
+      <attribute name="from" value="avalon-framework:avalon-framework:4.1.5"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="4.1.5"/>
+      <attribute name="maven-artifactId" value="avalon-framework"/>
+      <attribute name="maven-repository" value="avalon-framework:avalon-framework:4.1.5"/>
+      <attribute name="maven-groupId" value="avalon-framework"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="73425" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/avalon-framework/avalon-framework/4.1.5/avalon-framework-4.1.5.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="833F1E50DFA628F13D4A4206B3EC6D8F42E96284A35D76C072D880804B747A04"/>
     </capability>
   </resource>
   <resource>
@@ -11904,31 +11904,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="dom4j:dom4j"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="1.5.2" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="dom4j:dom4j:1.5.2"/>
-      <attribute name="from" value="dom4j:dom4j:1.5.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.5.2"/>
-      <attribute name="maven-artifactId" value="dom4j"/>
-      <attribute name="maven-repository" value="dom4j:dom4j:1.5.2"/>
-      <attribute name="maven-groupId" value="dom4j"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="312509" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/dom4j/dom4j/1.5.2/dom4j-1.5.2.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="E6A026B7AA343E14F5EADB32A089954AD89548006845CCD10EFFB234CC8BE19C"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="findbugs:coreplugin"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.0.0" type="Version"/>
@@ -11950,6 +11925,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/findbugs/coreplugin/1.0.0/coreplugin-1.0.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="AD7FC0B483EA897D3DF4747B5F341DDE87A22CAEB1DCD20312EA51CA7D0309CB"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="dom4j:dom4j"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.5.2" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="dom4j:dom4j:1.5.2"/>
+      <attribute name="from" value="dom4j:dom4j:1.5.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.5.2"/>
+      <attribute name="maven-artifactId" value="dom4j"/>
+      <attribute name="maven-repository" value="dom4j:dom4j:1.5.2"/>
+      <attribute name="maven-groupId" value="dom4j"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="312509" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/dom4j/dom4j/1.5.2/dom4j-1.5.2.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="E6A026B7AA343E14F5EADB32A089954AD89548006845CCD10EFFB234CC8BE19C"/>
     </capability>
   </resource>
   <resource>
@@ -17663,31 +17663,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="avalon-framework:avalon-framework"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="4.1.3" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="avalon-framework:avalon-framework:4.1.3"/>
-      <attribute name="from" value="avalon-framework:avalon-framework:4.1.3"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="4.1.3"/>
-      <attribute name="maven-artifactId" value="avalon-framework"/>
-      <attribute name="maven-repository" value="avalon-framework:avalon-framework:4.1.3"/>
-      <attribute name="maven-groupId" value="avalon-framework"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="63966" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="17731FE321A7A7CC3B56CB797634B8EC29FA0322004886A1523BBC7BC7EECF71"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="logkit:logkit"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.0.1" type="Version"/>
@@ -17709,6 +17684,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="7EA93B4FC21F3D05ED224B168A025F864DB75DDFDDC2343E1EC29A386D7501E0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="avalon-framework:avalon-framework"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="4.1.3" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="avalon-framework:avalon-framework:4.1.3"/>
+      <attribute name="from" value="avalon-framework:avalon-framework:4.1.3"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="4.1.3"/>
+      <attribute name="maven-artifactId" value="avalon-framework"/>
+      <attribute name="maven-repository" value="avalon-framework:avalon-framework:4.1.3"/>
+      <attribute name="maven-groupId" value="avalon-framework"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="63966" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="17731FE321A7A7CC3B56CB797634B8EC29FA0322004886A1523BBC7BC7EECF71"/>
     </capability>
   </resource>
   <resource>
@@ -17901,31 +17901,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="org.easymock:easymock"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="org.easymock:easymock:2.2"/>
-      <attribute name="from" value="org.easymock:easymock:2.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.2"/>
-      <attribute name="maven-artifactId" value="easymock"/>
-      <attribute name="maven-repository" value="org.easymock:easymock:2.2"/>
-      <attribute name="maven-groupId" value="org.easymock"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="62696" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/easymock/easymock/2.2/easymock-2.2.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="CAFA9B79B714605CC6BE74DF9CD6133A6C1401580BC42DBB5CB44C2E7025EEBE"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="xalan:xalan"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="2.5.0" type="Version"/>
@@ -17950,6 +17925,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xalan/xalan/2.5.0/xalan-2.5.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="6BCB9E188B8688982895651B419D9BAE0D27F64FA05D2F911BB88986D61C7073"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.easymock:easymock"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.easymock:easymock:2.2"/>
+      <attribute name="from" value="org.easymock:easymock:2.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.2"/>
+      <attribute name="maven-artifactId" value="easymock"/>
+      <attribute name="maven-repository" value="org.easymock:easymock:2.2"/>
+      <attribute name="maven-groupId" value="org.easymock"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="62696" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/easymock/easymock/2.2/easymock-2.2.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="CAFA9B79B714605CC6BE74DF9CD6133A6C1401580BC42DBB5CB44C2E7025EEBE"/>
     </capability>
   </resource>
   <resource>
