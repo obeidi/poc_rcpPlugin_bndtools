@@ -18,4 +18,6 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
 	navigate to your RCP-Workarea.  
 	choose the workspace 5.3 (we use it hier)  
 	create your BND-Workspace
+    ![bndtools-Workspace](pic/bndworkspace.png "bndtools-Workspace")
+ 
  3. 
