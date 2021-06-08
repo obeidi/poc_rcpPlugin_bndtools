@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 Reference Implementations" increment="1623149646497">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 Reference Implementations" increment="1623172902673">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
@@ -2121,6 +2121,89 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="singleton" value="true"/>
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
+      <attribute name="documentation" value="http://geronimo.apache.org/maven/specs/geronimo-saaj_1.3_spec/1.1"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.1.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.activation,javax.xml.namespace,org.w3c.dom,javax.xml.transform.dom,javax.xml.transform"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
+      <attribute name="bundle-version" value="1.1.0" type="Version"/>
+      <attribute name="version" value="1.3.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.soap"/>
+      <attribute name="bnd.hashes" value="-469978154,2043610225,-406375807,1913542064,-1236807901,-461907967,-1785458773,-1434244974,2420395,2433570,458068942,362550772,1954536397,527460975,-1719626551,-1772031999,932745732,-995505935,862207705,1458611323,-1458319100,-424551681,464379223,-1995343451,1571202552,-540743196,1622256124,1954940446,2603341" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="singleton" value="true"/>
+      <attribute name="bundle-version" value="1.1.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="singleton" value="true"/>
+      <attribute name="bundle-version" value="1.1.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.geronimo.specs:geronimo-saaj_1.3_spec:1.1"/>
+      <attribute name="from" value="org.apache.geronimo.specs:geronimo-saaj_1.3_spec:1.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.1"/>
+      <attribute name="maven-artifactId" value="geronimo-saaj_1.3_spec"/>
+      <attribute name="maven-repository" value="org.apache.geronimo.specs:geronimo-saaj_1.3_spec:1.1"/>
+      <attribute name="maven-groupId" value="org.apache.geronimo.specs"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="35650" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/geronimo/specs/geronimo-saaj_1.3_spec/1.1/geronimo-saaj_1.3_spec-1.1.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="6CC02675A2E9DC78F7EBB4E450A670619E0915C6246CBB5B93A5EE27B3345AA9"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.activation)(version&gt;=1.1.0))"/>
+      <attribute name="osgi.wiring.package" value="javax.activation"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.namespace"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.soap)(version&gt;=1.3.0))"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.soap"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform)"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.transform"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.dom)"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.transform.dom"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.geronimo.osgi.registry.api)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.apache.geronimo.osgi.registry.api"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.osgi.framework)"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.osgi.util.tracker)"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.util.tracker"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom)"/>
+      <attribute name="osgi.wiring.package" value="org.w3c.dom"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.mockito.mockito-core"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" value="2.17.0" type="Version"/>
@@ -2464,89 +2547,6 @@
     </requirement>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
-    </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="singleton" value="true"/>
-      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-      <attribute name="osgi.identity" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
-      <attribute name="documentation" value="http://geronimo.apache.org/maven/specs/geronimo-saaj_1.3_spec/1.1"/>
-      <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="1.1.0" type="Version"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <directive name="uses" value="javax.activation,javax.xml.namespace,org.w3c.dom,javax.xml.transform.dom,javax.xml.transform"/>
-      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
-      <attribute name="bundle-version" value="1.1.0" type="Version"/>
-      <attribute name="version" value="1.3.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.soap"/>
-      <attribute name="bnd.hashes" value="-469978154,2043610225,-406375807,1913542064,-1236807901,-461907967,-1785458773,-1434244974,2420395,2433570,458068942,362550772,1954536397,527460975,-1719626551,-1772031999,932745732,-995505935,862207705,1458611323,-1458319100,-424551681,464379223,-1995343451,1571202552,-540743196,1622256124,1954940446,2603341" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.bundle">
-      <attribute name="singleton" value="true"/>
-      <attribute name="bundle-version" value="1.1.0" type="Version"/>
-      <attribute name="osgi.wiring.bundle" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
-    </capability>
-    <capability namespace="osgi.wiring.host">
-      <attribute name="singleton" value="true"/>
-      <attribute name="bundle-version" value="1.1.0" type="Version"/>
-      <attribute name="osgi.wiring.host" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="org.apache.geronimo.specs:geronimo-saaj_1.3_spec:1.1"/>
-      <attribute name="from" value="org.apache.geronimo.specs:geronimo-saaj_1.3_spec:1.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.1"/>
-      <attribute name="maven-artifactId" value="geronimo-saaj_1.3_spec"/>
-      <attribute name="maven-repository" value="org.apache.geronimo.specs:geronimo-saaj_1.3_spec:1.1"/>
-      <attribute name="maven-groupId" value="org.apache.geronimo.specs"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="35650" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/geronimo/specs/geronimo-saaj_1.3_spec/1.1/geronimo-saaj_1.3_spec-1.1.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="6CC02675A2E9DC78F7EBB4E450A670619E0915C6246CBB5B93A5EE27B3345AA9"/>
-    </capability>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.activation)(version&gt;=1.1.0))"/>
-      <attribute name="osgi.wiring.package" value="javax.activation"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.namespace"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.soap)(version&gt;=1.3.0))"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.soap"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform)"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.transform"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform.dom)"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.transform.dom"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=org.apache.geronimo.osgi.registry.api)"/>
-      <directive name="resolution" value="optional"/>
-      <attribute name="osgi.wiring.package" value="org.apache.geronimo.osgi.registry.api"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=org.osgi.framework)"/>
-      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=org.osgi.util.tracker)"/>
-      <attribute name="osgi.wiring.package" value="org.osgi.util.tracker"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=org.w3c.dom)"/>
-      <attribute name="osgi.wiring.package" value="org.w3c.dom"/>
     </requirement>
   </resource>
   <resource>
@@ -4950,31 +4950,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.2.1" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="xerces:xercesImpl:2.2.1"/>
-      <attribute name="from" value="xerces:xercesImpl:2.2.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.2.1"/>
-      <attribute name="maven-artifactId" value="xercesImpl"/>
-      <attribute name="maven-repository" value="xerces:xercesImpl:2.2.1"/>
-      <attribute name="maven-groupId" value="xerces"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="834852" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xerces/xercesImpl/2.2.1/xercesImpl-2.2.1.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="28A95691FB5413AAFFF8EAB09C7B7B7CEC772460BCEE03BA89D16F58A2F65B55"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="log4j:log4j"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.2.9" type="Version"/>
@@ -4996,6 +4971,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/log4j/log4j/1.2.9/log4j-1.2.9.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="D2B9DFB297BCAA7BE1FCDD702642A9C9713D7847DCA8704E9C15BD829F0AB1BF"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.2.1" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="xerces:xercesImpl:2.2.1"/>
+      <attribute name="from" value="xerces:xercesImpl:2.2.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.2.1"/>
+      <attribute name="maven-artifactId" value="xercesImpl"/>
+      <attribute name="maven-repository" value="xerces:xercesImpl:2.2.1"/>
+      <attribute name="maven-groupId" value="xerces"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="834852" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xerces/xercesImpl/2.2.1/xercesImpl-2.2.1.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="28A95691FB5413AAFFF8EAB09C7B7B7CEC772460BCEE03BA89D16F58A2F65B55"/>
     </capability>
   </resource>
   <resource>
@@ -10962,6 +10962,31 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="bsf:bsf"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.4.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="bsf:bsf:2.4.0"/>
+      <attribute name="from" value="bsf:bsf:2.4.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.4.0"/>
+      <attribute name="maven-artifactId" value="bsf"/>
+      <attribute name="maven-repository" value="bsf:bsf:2.4.0"/>
+      <attribute name="maven-groupId" value="bsf"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="113369" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/bsf/bsf/2.4.0/bsf-2.4.0.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="F873773DEB91C1A1C12150F6CDB13B8A2E1B496A75AC903C4BBFA103B363A7C7"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
       <attribute name="osgi.identity" value="org.fusesource.jansi"/>
       <attribute name="type" value="osgi.bundle"/>
@@ -11006,31 +11031,6 @@
       <directive name="resolution" value="optional"/>
       <attribute name="osgi.wiring.package" value="sun.reflect"/>
     </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="bsf:bsf"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.4.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="bsf:bsf:2.4.0"/>
-      <attribute name="from" value="bsf:bsf:2.4.0"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.4.0"/>
-      <attribute name="maven-artifactId" value="bsf"/>
-      <attribute name="maven-repository" value="bsf:bsf:2.4.0"/>
-      <attribute name="maven-groupId" value="bsf"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="113369" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/bsf/bsf/2.4.0/bsf-2.4.0.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="F873773DEB91C1A1C12150F6CDB13B8A2E1B496A75AC903C4BBFA103B363A7C7"/>
-    </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
@@ -11904,31 +11904,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="dom4j:dom4j"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="1.5.2" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="dom4j:dom4j:1.5.2"/>
-      <attribute name="from" value="dom4j:dom4j:1.5.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.5.2"/>
-      <attribute name="maven-artifactId" value="dom4j"/>
-      <attribute name="maven-repository" value="dom4j:dom4j:1.5.2"/>
-      <attribute name="maven-groupId" value="dom4j"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="312509" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/dom4j/dom4j/1.5.2/dom4j-1.5.2.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="E6A026B7AA343E14F5EADB32A089954AD89548006845CCD10EFFB234CC8BE19C"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="findbugs:coreplugin"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.0.0" type="Version"/>
@@ -11950,6 +11925,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/findbugs/coreplugin/1.0.0/coreplugin-1.0.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="AD7FC0B483EA897D3DF4747B5F341DDE87A22CAEB1DCD20312EA51CA7D0309CB"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="dom4j:dom4j"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.5.2" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="dom4j:dom4j:1.5.2"/>
+      <attribute name="from" value="dom4j:dom4j:1.5.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.5.2"/>
+      <attribute name="maven-artifactId" value="dom4j"/>
+      <attribute name="maven-repository" value="dom4j:dom4j:1.5.2"/>
+      <attribute name="maven-groupId" value="dom4j"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="312509" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/dom4j/dom4j/1.5.2/dom4j-1.5.2.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="E6A026B7AA343E14F5EADB32A089954AD89548006845CCD10EFFB234CC8BE19C"/>
     </capability>
   </resource>
   <resource>
@@ -12720,53 +12720,28 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="license" value="Apache-2.0; link=&quot;http://www.apache.org/licenses/LICENSE-2.0&quot;; description=&quot;Apache License, Version 2.0&quot;"/>
-      <attribute name="osgi.identity" value="org.osgi.util.promise"/>
-      <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="1.1.0.201802012106" type="Version"/>
-      <attribute name="documentation" value="https://www.osgi.org/"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <directive name="uses" value="org.osgi.util.function"/>
-      <attribute name="bundle-symbolic-name" value="org.osgi.util.promise"/>
-      <attribute name="bundle-version" value="1.1.0.201802012106" type="Version"/>
-      <attribute name="version" value="1.1.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.osgi.util.promise"/>
-      <attribute name="bnd.hashes" value="712535039,65070753,-973241247,65915235,1335848159,-891069155,2104342424,885810947,77116,-1547713212,-2009290710,-674203470,-1807668168,2605629,-1892220507,350741825,1437638748,393463102,1872034202,578079082,1355436283,65921,1229938816,-122541857,695804588,1910929295,-2041294197,1473077508,-1850559427,1360409019,-931148072,-374893917,-202516509,126968846,-1923478059" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="1.1.0.201802012106" type="Version"/>
-      <attribute name="osgi.wiring.bundle" value="org.osgi.util.promise"/>
-    </capability>
-    <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="1.1.0.201802012106" type="Version"/>
-      <attribute name="osgi.wiring.host" value="org.osgi.util.promise"/>
+      <attribute name="osgi.identity" value="oro:oro"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.0.8" type="Version"/>
     </capability>
     <capability namespace="bnd.info">
-      <attribute name="name" value="org.osgi:org.osgi.util.promise:1.1.0"/>
-      <attribute name="from" value="org.osgi:org.osgi.util.promise:1.1.0"/>
+      <attribute name="name" value="oro:oro:2.0.8"/>
+      <attribute name="from" value="oro:oro:2.0.8"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
     <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.1.0"/>
-      <attribute name="maven-artifactId" value="org.osgi.util.promise"/>
-      <attribute name="maven-repository" value="org.osgi:org.osgi.util.promise:1.1.0"/>
-      <attribute name="maven-groupId" value="org.osgi"/>
+      <attribute name="maven-version" value="2.0.8"/>
+      <attribute name="maven-artifactId" value="oro"/>
+      <attribute name="maven-repository" value="oro:oro:2.0.8"/>
+      <attribute name="maven-groupId" value="oro"/>
       <attribute name="maven-classifier" value=""/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="size" value="75427" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/osgi/org.osgi.util.promise/1.1.0/org.osgi.util.promise-1.1.0.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="A679E25688E84E1739831E8716A2CC7ACBF8348E22F1136D1988E34472E43756"/>
+      <attribute name="size" value="65261" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="E00CCDAD5DF7EB43FDEE44232EF64602BF63807C2D133A7BE83BA09FD49AF26E"/>
     </capability>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.util.function)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
-      <attribute name="osgi.wiring.package" value="org.osgi.util.function"/>
-    </requirement>
-    <requirement namespace="osgi.ee">
-      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
-    </requirement>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
@@ -12911,28 +12886,53 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="oro:oro"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.0.8" type="Version"/>
+      <attribute name="license" value="Apache-2.0; link=&quot;http://www.apache.org/licenses/LICENSE-2.0&quot;; description=&quot;Apache License, Version 2.0&quot;"/>
+      <attribute name="osgi.identity" value="org.osgi.util.promise"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.1.0.201802012106" type="Version"/>
+      <attribute name="documentation" value="https://www.osgi.org/"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.osgi.util.function"/>
+      <attribute name="bundle-symbolic-name" value="org.osgi.util.promise"/>
+      <attribute name="bundle-version" value="1.1.0.201802012106" type="Version"/>
+      <attribute name="version" value="1.1.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.util.promise"/>
+      <attribute name="bnd.hashes" value="712535039,65070753,-973241247,65915235,1335848159,-891069155,2104342424,885810947,77116,-1547713212,-2009290710,-674203470,-1807668168,2605629,-1892220507,350741825,1437638748,393463102,1872034202,578079082,1355436283,65921,1229938816,-122541857,695804588,1910929295,-2041294197,1473077508,-1850559427,1360409019,-931148072,-374893917,-202516509,126968846,-1923478059" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.1.0.201802012106" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.osgi.util.promise"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.1.0.201802012106" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.osgi.util.promise"/>
     </capability>
     <capability namespace="bnd.info">
-      <attribute name="name" value="oro:oro:2.0.8"/>
-      <attribute name="from" value="oro:oro:2.0.8"/>
+      <attribute name="name" value="org.osgi:org.osgi.util.promise:1.1.0"/>
+      <attribute name="from" value="org.osgi:org.osgi.util.promise:1.1.0"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
     <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.0.8"/>
-      <attribute name="maven-artifactId" value="oro"/>
-      <attribute name="maven-repository" value="oro:oro:2.0.8"/>
-      <attribute name="maven-groupId" value="oro"/>
+      <attribute name="maven-version" value="1.1.0"/>
+      <attribute name="maven-artifactId" value="org.osgi.util.promise"/>
+      <attribute name="maven-repository" value="org.osgi:org.osgi.util.promise:1.1.0"/>
+      <attribute name="maven-groupId" value="org.osgi"/>
       <attribute name="maven-classifier" value=""/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="size" value="65261" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="E00CCDAD5DF7EB43FDEE44232EF64602BF63807C2D133A7BE83BA09FD49AF26E"/>
+      <attribute name="size" value="75427" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/osgi/org.osgi.util.promise/1.1.0/org.osgi.util.promise-1.1.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="A679E25688E84E1739831E8716A2CC7ACBF8348E22F1136D1988E34472E43756"/>
     </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.util.function)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.util.function"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
+    </requirement>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
@@ -15186,31 +15186,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="cglib:cglib-nodep"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="cglib:cglib-nodep:2.2"/>
-      <attribute name="from" value="cglib:cglib-nodep:2.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.2"/>
-      <attribute name="maven-artifactId" value="cglib-nodep"/>
-      <attribute name="maven-repository" value="cglib:cglib-nodep:2.2"/>
-      <attribute name="maven-groupId" value="cglib"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="322362" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="11AAB8E9198A53A3DE65AAF4D90F19B124135BB078DD8CDEFCBF2FCDA00CE599"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="xalan:xalan"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="2.7.0" type="Version"/>
@@ -15235,6 +15210,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xalan/xalan/2.7.0/xalan-2.7.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="BF1F065EFD6E3D5CB964DB4130815752015873338999D23DCAFC2DBC89FC7D9B"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="cglib:cglib-nodep"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="cglib:cglib-nodep:2.2"/>
+      <attribute name="from" value="cglib:cglib-nodep:2.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.2"/>
+      <attribute name="maven-artifactId" value="cglib-nodep"/>
+      <attribute name="maven-repository" value="cglib:cglib-nodep:2.2"/>
+      <attribute name="maven-groupId" value="cglib"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="322362" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="11AAB8E9198A53A3DE65AAF4D90F19B124135BB078DD8CDEFCBF2FCDA00CE599"/>
     </capability>
   </resource>
   <resource>
@@ -16368,31 +16368,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="ant:ant-nodeps"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="1.6.2" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="ant:ant-nodeps:1.6.2"/>
-      <attribute name="from" value="ant:ant-nodeps:1.6.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.6.2"/>
-      <attribute name="maven-artifactId" value="ant-nodeps"/>
-      <attribute name="maven-repository" value="ant:ant-nodeps:1.6.2"/>
-      <attribute name="maven-groupId" value="ant"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="407573" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/ant/ant-nodeps/1.6.2/ant-nodeps-1.6.2.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="6F2941EECE1EEE609279BBFF25B9428D152D10B09523254C2C32B0D2DF98A9AE"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="findbugs:findbugs-ant"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.0.0" type="Version"/>
@@ -16414,6 +16389,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/findbugs/findbugs-ant/1.0.0/findbugs-ant-1.0.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="39FDBB91E4D835EDCF4C6AE608556362000DA77D8024F307BE4E1E502DC1ED7F"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="ant:ant-nodeps"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.6.2" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="ant:ant-nodeps:1.6.2"/>
+      <attribute name="from" value="ant:ant-nodeps:1.6.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.6.2"/>
+      <attribute name="maven-artifactId" value="ant-nodeps"/>
+      <attribute name="maven-repository" value="ant:ant-nodeps:1.6.2"/>
+      <attribute name="maven-groupId" value="ant"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="407573" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/ant/ant-nodeps/1.6.2/ant-nodeps-1.6.2.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="6F2941EECE1EEE609279BBFF25B9428D152D10B09523254C2C32B0D2DF98A9AE"/>
     </capability>
   </resource>
   <resource>
@@ -16784,6 +16784,31 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.6.1" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="xerces:xercesImpl:2.6.1"/>
+      <attribute name="from" value="xerces:xercesImpl:2.6.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.6.1"/>
+      <attribute name="maven-artifactId" value="xercesImpl"/>
+      <attribute name="maven-repository" value="xerces:xercesImpl:2.6.1"/>
+      <attribute name="maven-groupId" value="xerces"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="959368" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xerces/xercesImpl/2.6.1/xercesImpl-2.6.1.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="FF8EB61E54E90E1E7A0F0369597552913845BFAA83CBDF0FAF8765CF9F1A5EDE"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0, http://www.eclipse.org/org/documents/epl-v10.php"/>
       <attribute name="osgi.identity" value="org.eclipse.jetty.io"/>
       <attribute name="type" value="osgi.bundle"/>
@@ -16875,31 +16900,6 @@
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
     </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.6.1" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="xerces:xercesImpl:2.6.1"/>
-      <attribute name="from" value="xerces:xercesImpl:2.6.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.6.1"/>
-      <attribute name="maven-artifactId" value="xercesImpl"/>
-      <attribute name="maven-repository" value="xerces:xercesImpl:2.6.1"/>
-      <attribute name="maven-groupId" value="xerces"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="959368" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xerces/xercesImpl/2.6.1/xercesImpl-2.6.1.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="FF8EB61E54E90E1E7A0F0369597552913845BFAA83CBDF0FAF8765CF9F1A5EDE"/>
-    </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
@@ -17663,31 +17663,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="avalon-framework:avalon-framework"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="4.1.3" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="avalon-framework:avalon-framework:4.1.3"/>
-      <attribute name="from" value="avalon-framework:avalon-framework:4.1.3"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="4.1.3"/>
-      <attribute name="maven-artifactId" value="avalon-framework"/>
-      <attribute name="maven-repository" value="avalon-framework:avalon-framework:4.1.3"/>
-      <attribute name="maven-groupId" value="avalon-framework"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="63966" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="17731FE321A7A7CC3B56CB797634B8EC29FA0322004886A1523BBC7BC7EECF71"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="logkit:logkit"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.0.1" type="Version"/>
@@ -17709,6 +17684,31 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="7EA93B4FC21F3D05ED224B168A025F864DB75DDFDDC2343E1EC29A386D7501E0"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="avalon-framework:avalon-framework"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="4.1.3" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="avalon-framework:avalon-framework:4.1.3"/>
+      <attribute name="from" value="avalon-framework:avalon-framework:4.1.3"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="4.1.3"/>
+      <attribute name="maven-artifactId" value="avalon-framework"/>
+      <attribute name="maven-repository" value="avalon-framework:avalon-framework:4.1.3"/>
+      <attribute name="maven-groupId" value="avalon-framework"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="63966" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="17731FE321A7A7CC3B56CB797634B8EC29FA0322004886A1523BBC7BC7EECF71"/>
     </capability>
   </resource>
   <resource>
@@ -17901,31 +17901,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="2.6.2" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="xerces:xercesImpl:2.6.2"/>
-      <attribute name="from" value="xerces:xercesImpl:2.6.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.6.2"/>
-      <attribute name="maven-artifactId" value="xercesImpl"/>
-      <attribute name="maven-repository" value="xerces:xercesImpl:2.6.2"/>
-      <attribute name="maven-groupId" value="xerces"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="1010675" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="7512957342DC34290F27C0D5FD4313E00ACB1E6DBE2992FD4CA66B46D7200035"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.easymock:easymock"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="2.2.0" type="Version"/>
@@ -17975,6 +17950,56 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xalan/xalan/2.5.0/xalan-2.5.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="6BCB9E188B8688982895651B419D9BAE0D27F64FA05D2F911BB88986D61C7073"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="xerces:xercesImpl"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="2.6.2" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="xerces:xercesImpl:2.6.2"/>
+      <attribute name="from" value="xerces:xercesImpl:2.6.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.6.2"/>
+      <attribute name="maven-artifactId" value="xercesImpl"/>
+      <attribute name="maven-repository" value="xerces:xercesImpl:2.6.2"/>
+      <attribute name="maven-groupId" value="xerces"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1010675" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="7512957342DC34290F27C0D5FD4313E00ACB1E6DBE2992FD4CA66B46D7200035"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="net.java.dev.jna:platform"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="3.4.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="net.java.dev.jna:platform:3.4.0"/>
+      <attribute name="from" value="net.java.dev.jna:platform:3.4.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="3.4.0"/>
+      <attribute name="maven-artifactId" value="platform"/>
+      <attribute name="maven-repository" value="net.java.dev.jna:platform:3.4.0"/>
+      <attribute name="maven-groupId" value="net.java.dev.jna"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="913436" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="EA89D5090C8303BA4E9A0056E6D8A20429F3E021411E950BFD9EBA3B6E6CF15C"/>
     </capability>
   </resource>
   <resource>
@@ -18034,31 +18059,6 @@
       <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j.impl)(version&gt;=1.6.0))"/>
       <attribute name="osgi.wiring.package" value="org.slf4j.impl"/>
     </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="net.java.dev.jna:platform"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="3.4.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="net.java.dev.jna:platform:3.4.0"/>
-      <attribute name="from" value="net.java.dev.jna:platform:3.4.0"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="3.4.0"/>
-      <attribute name="maven-artifactId" value="platform"/>
-      <attribute name="maven-repository" value="net.java.dev.jna:platform:3.4.0"/>
-      <attribute name="maven-groupId" value="net.java.dev.jna"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="913436" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="EA89D5090C8303BA4E9A0056E6D8A20429F3E021411E950BFD9EBA3B6E6CF15C"/>
-    </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
@@ -20319,34 +20319,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="org.apache.ant:ant"/>
-      <attribute name="type" value="unknown"/>
-      <attribute name="version" value="1.8.4" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="org.apache.ant:ant:1.8.4"/>
-      <attribute name="from" value="org.apache.ant:ant:1.8.4"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.mainclass">
-      <attribute name="bnd.mainclass" value="org.apache.tools.ant.Main"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.8.4"/>
-      <attribute name="maven-artifactId" value="ant"/>
-      <attribute name="maven-repository" value="org.apache.ant:ant:1.8.4"/>
-      <attribute name="maven-groupId" value="org.apache.ant"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="1941731" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/ant/ant/1.8.4/ant-1.8.4.jar"/>
-      <attribute name="mime" value="application/java-archive"/>
-      <attribute name="osgi.content" value="FFC5818CA8CDE2ED111D9D6C6763D301429AD9897582F0968B80C1A136E9DBA4"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="xom:xom"/>
       <attribute name="type" value="unknown"/>
       <attribute name="version" value="1.1.0" type="Version"/>
@@ -20371,6 +20343,34 @@
       <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/xom/xom/1.1/xom-1.1.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="05D513CCE3F19C1BC4B06C545431DA10DBD2F96B4E83AA715D2FE92B06D951A7"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.ant:ant"/>
+      <attribute name="type" value="unknown"/>
+      <attribute name="version" value="1.8.4" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.ant:ant:1.8.4"/>
+      <attribute name="from" value="org.apache.ant:ant:1.8.4"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.mainclass">
+      <attribute name="bnd.mainclass" value="org.apache.tools.ant.Main"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.8.4"/>
+      <attribute name="maven-artifactId" value="ant"/>
+      <attribute name="maven-repository" value="org.apache.ant:ant:1.8.4"/>
+      <attribute name="maven-groupId" value="org.apache.ant"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1941731" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/ant/ant/1.8.4/ant-1.8.4.jar"/>
+      <attribute name="mime" value="application/java-archive"/>
+      <attribute name="osgi.content" value="FFC5818CA8CDE2ED111D9D6C6763D301429AD9897582F0968B80C1A136E9DBA4"/>
     </capability>
   </resource>
   <resource>
@@ -22704,6 +22704,85 @@
   </resource>
   <resource>
     <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.1" type="Version"/>
+      <attribute name="documentation" value="http://www.apache.org"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.xml.namespace,javax.xml.stream"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
+      <attribute name="bundle-version" value="1.0.1" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.stream.events"/>
+      <attribute name="bnd.hashes" value="2017053308,-1056078198,-1679915457,68020,992303862,558132673,-1498333833,-1353653624,-1038781125,-378383368,2053479259,1787799421,-1632963494,609947875" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.xml.stream.events,javax.xml.namespace,javax.xml.stream"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
+      <attribute name="bundle-version" value="1.0.1" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.stream.util"/>
+      <attribute name="bnd.hashes" value="-1546807166,-2082580696,1388394600,989619705" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.xml.stream.events,javax.xml.namespace,javax.xml.transform,javax.xml.stream.util"/>
+      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
+      <attribute name="bundle-version" value="1.0.1" type="Version"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.stream"/>
+      <attribute name="bnd.hashes" value="1392506514,-1243482820,381857868,1965687765,-1649099976,-1595833689,295690118,451095350,-1517721737,214958610,-1754548744,-1668838115,1389422776,-1001642056,1408852474,1564257706" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.1" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.1" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1"/>
+      <attribute name="from" value="org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="1.0.1"/>
+      <attribute name="maven-artifactId" value="geronimo-stax-api_1.0_spec"/>
+      <attribute name="maven-repository" value="org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1"/>
+      <attribute name="maven-groupId" value="org.apache.geronimo.specs"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="28804" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="124235815FBA376B0C20ED37F79D691FA26B4E00297A4AB27B6CA05CEB591348"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.namespace"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.stream)(version&gt;=1.0.0))"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.stream"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.stream.events)(version&gt;=1.0.0))"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.stream.events"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.stream.util)(version&gt;=1.0.0))"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.stream.util"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform)"/>
+      <attribute name="osgi.wiring.package" value="javax.xml.transform"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0, http://www.eclipse.org/org/documents/epl-v10.php"/>
       <attribute name="osgi.identity" value="org.eclipse.jetty.webapp"/>
       <attribute name="type" value="osgi.bundle"/>
@@ -22822,85 +22901,6 @@
     </requirement>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
-    </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-      <attribute name="osgi.identity" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
-      <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="1.0.1" type="Version"/>
-      <attribute name="documentation" value="http://www.apache.org"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <directive name="uses" value="javax.xml.namespace,javax.xml.stream"/>
-      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
-      <attribute name="bundle-version" value="1.0.1" type="Version"/>
-      <attribute name="version" value="1.0.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.stream.events"/>
-      <attribute name="bnd.hashes" value="2017053308,-1056078198,-1679915457,68020,992303862,558132673,-1498333833,-1353653624,-1038781125,-378383368,2053479259,1787799421,-1632963494,609947875" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <directive name="uses" value="javax.xml.stream.events,javax.xml.namespace,javax.xml.stream"/>
-      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
-      <attribute name="bundle-version" value="1.0.1" type="Version"/>
-      <attribute name="version" value="1.0.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.stream.util"/>
-      <attribute name="bnd.hashes" value="-1546807166,-2082580696,1388394600,989619705" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <directive name="uses" value="javax.xml.stream.events,javax.xml.namespace,javax.xml.transform,javax.xml.stream.util"/>
-      <attribute name="bundle-symbolic-name" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
-      <attribute name="bundle-version" value="1.0.1" type="Version"/>
-      <attribute name="version" value="1.0.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.stream"/>
-      <attribute name="bnd.hashes" value="1392506514,-1243482820,381857868,1965687765,-1649099976,-1595833689,295690118,451095350,-1517721737,214958610,-1754548744,-1668838115,1389422776,-1001642056,1408852474,1564257706" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="1.0.1" type="Version"/>
-      <attribute name="osgi.wiring.bundle" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
-    </capability>
-    <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="1.0.1" type="Version"/>
-      <attribute name="osgi.wiring.host" value="org.apache.geronimo.specs.geronimo-stax-api_1.0_spec"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1"/>
-      <attribute name="from" value="org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="1.0.1"/>
-      <attribute name="maven-artifactId" value="geronimo-stax-api_1.0_spec"/>
-      <attribute name="maven-repository" value="org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1"/>
-      <attribute name="maven-groupId" value="org.apache.geronimo.specs"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="28804" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="124235815FBA376B0C20ED37F79D691FA26B4E00297A4AB27B6CA05CEB591348"/>
-    </capability>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.namespace)"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.namespace"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.stream)(version&gt;=1.0.0))"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.stream"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.stream.events)(version&gt;=1.0.0))"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.stream.events"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.stream.util)(version&gt;=1.0.0))"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.stream.util"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.xml.transform)"/>
-      <attribute name="osgi.wiring.package" value="javax.xml.transform"/>
     </requirement>
   </resource>
   <resource>
@@ -23051,6 +23051,83 @@
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.apache.commons.io"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="documentation" value="http://commons.apache.org/io/"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.output"/>
+      <attribute name="bnd.hashes" value="-1861664650,-1099351918,-1021488670,-279117939,1661385748,-2120183396,-1209658096,507082504,-396682220,-1231611096,-256593670,1008204111,-417007519,-535028931,1122537357,-1271456267,-1872202440,1247309844,1767289258" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.monitor"/>
+      <attribute name="bnd.hashes" value="-499734225,749056086,-1594172033,-1497286831,663506998" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.filefilter"/>
+      <attribute name="bnd.hashes" value="120186358,828453459,-765983445,-2100563430,-412277885,-69960934,-320687207,1192164929,1692744993,-994083465,1593283280,203760861,-2137403010,-274477606,-2029071382,25121055,1157376807,2031230583,1685644390,2066921371,1123146517,-123828635,1626514530,1086547374,240938514" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.comparator"/>
+      <attribute name="bnd.hashes" value="496695380,-2069098055,-1086005261,961868575,724588913,-1866836751,-880498947,-1925727465,175311160,-1676327437" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io.input"/>
+      <attribute name="bnd.hashes" value="985598657,2000188970,35341613,1439284405,59949587,749319418,1638653664,-1720201783,520502974,444552535,2014506203,-895695933,-411998902,839124156,-572412751,-206202105,-671018065,1950838652,-380517436,1674096318,-1797301987,810423537,-49027810,-1866812586,1611884026,1583915893" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.io"/>
+      <attribute name="bnd.hashes" value="1500594931,-794562020,745415381,774556899,1797207478,128433018,-1851100689,597258008,-2053101885,412779781,656598778,1202226711,-441444218,678451317,-635163958,-1814703217,-2129988234,1038622586,-1587945685,460274850,-1170291523,-2134411312" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.apache.commons.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="2.2.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.apache.commons.io"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="commons-io:commons-io:2.2"/>
+      <attribute name="from" value="commons-io:commons-io:2.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.maven">
+      <attribute name="maven-version" value="2.2"/>
+      <attribute name="maven-artifactId" value="commons-io"/>
+      <attribute name="maven-repository" value="commons-io:commons-io:2.2"/>
+      <attribute name="maven-groupId" value="commons-io"/>
+      <attribute name="maven-classifier" value=""/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="173587" type="Long"/>
+      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="675F60BD11A82D481736591FE4054C66471FA5463D45616652FD71585792BA87"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
       <attribute name="osgi.identity" value="com.zaxxer.HikariCP"/>
       <attribute name="type" value="osgi.bundle"/>
       <attribute name="version" value="2.4.7" type="Version"/>
@@ -23191,83 +23268,6 @@
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.7))"/>
     </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.identity">
-      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-      <attribute name="osgi.identity" value="org.apache.commons.io"/>
-      <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="documentation" value="http://commons.apache.org/io/"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.apache.commons.io.output"/>
-      <attribute name="bnd.hashes" value="-1861664650,-1099351918,-1021488670,-279117939,1661385748,-2120183396,-1209658096,507082504,-396682220,-1231611096,-256593670,1008204111,-417007519,-535028931,1122537357,-1271456267,-1872202440,1247309844,1767289258" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.apache.commons.io.monitor"/>
-      <attribute name="bnd.hashes" value="-499734225,749056086,-1594172033,-1497286831,663506998" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.apache.commons.io.filefilter"/>
-      <attribute name="bnd.hashes" value="120186358,828453459,-765983445,-2100563430,-412277885,-69960934,-320687207,1192164929,1692744993,-994083465,1593283280,203760861,-2137403010,-274477606,-2029071382,25121055,1157376807,2031230583,1685644390,2066921371,1123146517,-123828635,1626514530,1086547374,240938514" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.apache.commons.io.comparator"/>
-      <attribute name="bnd.hashes" value="496695380,-2069098055,-1086005261,961868575,724588913,-1866836751,-880498947,-1925727465,175311160,-1676327437" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.apache.commons.io.input"/>
-      <attribute name="bnd.hashes" value="985598657,2000188970,35341613,1439284405,59949587,749319418,1638653664,-1720201783,520502974,444552535,2014506203,-895695933,-411998902,839124156,-572412751,-206202105,-671018065,1950838652,-380517436,1674096318,-1797301987,810423537,-49027810,-1866812586,1611884026,1583915893" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.package">
-      <attribute name="bundle-symbolic-name" value="org.apache.commons.io"/>
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.package" value="org.apache.commons.io"/>
-      <attribute name="bnd.hashes" value="1500594931,-794562020,745415381,774556899,1797207478,128433018,-1851100689,597258008,-2053101885,412779781,656598778,1202226711,-441444218,678451317,-635163958,-1814703217,-2129988234,1038622586,-1587945685,460274850,-1170291523,-2134411312" type="List&lt;Long&gt;"/>
-    </capability>
-    <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.bundle" value="org.apache.commons.io"/>
-    </capability>
-    <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="2.2.0" type="Version"/>
-      <attribute name="osgi.wiring.host" value="org.apache.commons.io"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="commons-io:commons-io:2.2"/>
-      <attribute name="from" value="commons-io:commons-io:2.2"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.maven">
-      <attribute name="maven-version" value="2.2"/>
-      <attribute name="maven-artifactId" value="commons-io"/>
-      <attribute name="maven-repository" value="commons-io:commons-io:2.2"/>
-      <attribute name="maven-groupId" value="commons-io"/>
-      <attribute name="maven-classifier" value=""/>
-    </capability>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="173587" type="Long"/>
-      <attribute name="url" value="file:/Users/ahmadobeidi/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="675F60BD11A82D481736591FE4054C66471FA5463D45616652FD71585792BA87"/>
-    </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">

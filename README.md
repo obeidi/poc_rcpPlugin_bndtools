@@ -6,8 +6,16 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
  2. git clone https://github.com/obeidi/poc_rcpPlugin_bndtools.git
  3. open Eclipse and import the cloned Repo as "Existing Projects into Workspace" 
  4. go to the master-Branch.
- 5. open the Project an go to rcpPlugin2 and open the .bndrun File. For mac: app.ui_macosx.cocoa.x86-64.bndrun and for windows: app.ui_win32.win32.x86-64.bndrun
+ 5. open the Project an go to rcpPlugin2 and open the .bndrun File.  
+    For mac: app.ui_macosx.cocoa.x86-64.bndrun and  
+	for windows: app.ui_win32.win32.x86-64.bndrun
  6. start the .bndrun with the play-Button. 
  
  ## to implement bndtools in a Eclipse RCP Application 
- 1.
+ 1. create in Eclipse a RCP. (https://www.vogella.com/tutorials/EclipseRCP/article.html)
+ 2. create a BND-Workspace in your RCP:
+	right Mouseclick on the Project, new->other->Bndtools->"Bnd OSGI Workspace" -> klick next.  
+	navigate to your RCP-Workarea.  
+	choose the workspace 5.3 (we use it hier)  
+	create your BND-Workspace
+ 3. 
