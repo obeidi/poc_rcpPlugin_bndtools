@@ -106,9 +106,6 @@ eclipse.simu.name    = "Eclipse Simu Release ${eclipse.name} - ${eclipse.simu.ve
 eclipse.simu.url     = "${eclipse.simu.baseurl}/${eclipse.name}/${eclipse.simu.version}"
 
 
-
-
-
 # Remote Eclipse repositories
 
 # 1. creation of the indices via this configurations and store inside cnf/fixedIndices
@@ -123,3 +120,18 @@ eclipse.simu.url     = "${eclipse.simu.baseurl}/${eclipse.name}/${eclipse.simu.v
         name  = ${eclipse.simu.name}; \
         url   = ${eclipse.simu.url}; \
         cache = ${cache}
+
+        
+# Reference the locally indexed eclipse repositories
+
+# 2. use the fixed indices saves the load time on new workspaces
+#-plugin.20.eclipse.platform: \
+#   aQute.bnd.deployer.repository.FixedIndexedRepo; \
+#       name      = "Eclipse Platform ${eclipse.platform.version}"; \
+#       locations = "${fileuri;${${workspace}}}cnf/fixedIndices/p2-Eclipse-Platform/index.xml.gz"
+#
+#-plugin.21.eclipse.simu: \
+#    aQute.bnd.deployer.repository.FixedIndexedRepo; \
+#        name      = "Eclipse Simu Release - ${eclipse.simu.version}"; \
+#        locations = "${fileuri;${${workspace}}}cnf/fixedIndices/p2-Eclipse-Simu-Release/index.xml.gz"
+        

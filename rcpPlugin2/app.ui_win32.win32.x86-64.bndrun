@@ -8,7 +8,7 @@
 -runsystemcapabilities:   ${native_capability}
 
 -runproperties: \
-	eclipse.product=example.rcp.app.ui.product,\
+	eclipse.product=rcpPlugin2.product,\
 	launch.keep=false,\
 	launch.storage.dir=_rt/cfg
 
