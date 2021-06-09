@@ -21,4 +21,5 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
  2. create a Folder "rcp-app" next to cnf.
     ![bndtools-Workspace-explorer](pic/bnd-workspace-explorer.png "bndtools-Workspace-explorer") 
  3. create in the Folder "rcp-app" an Eclipse RCP. (https://www.vogella.com/tutorials/EclipseRCP/article.html)
+    ![rcpApp-init](pic/rcpApp-init.png "rcpApp-init") 
  4. 
