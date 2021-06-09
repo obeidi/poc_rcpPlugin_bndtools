@@ -17,7 +17,8 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
 	navigate to your RCP-Workarea.  
 	choose the workspace 5.3 (we use it hier)  
 	create your BND-Workspace
-    ![bndtools-Workspace](pic/bndworkspace.png "bndtools-Workspace")
- 2. create a Folder "rcp-app" next to cnf. 
+    ![bndtools-Workspace](pic/workspace-eclipse.png "bndtools-Workspace")
+ 2. create a Folder "rcp-app" next to cnf.
+    ![bndtools-Workspace-explorer](pic/bnd-workspace-explorer.png "bndtools-Workspace-explorer") 
  3. create in the Folder "rcp-app" an Eclipse RCP. (https://www.vogella.com/tutorials/EclipseRCP/article.html)
  4. 
