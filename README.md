@@ -12,12 +12,12 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
  6. start the .bndrun with the play-Button. 
  
  ## to implement bndtools in a Eclipse RCP Application 
- 1. create in Eclipse a RCP. (https://www.vogella.com/tutorials/EclipseRCP/article.html)
- 2. create a BND-Workspace in your RCP:
-	right Mouseclick on the Project, new->other->Bndtools->"Bnd OSGI Workspace" -> klick next.  
+ 1. create a BND-Workspace in your RCP:
+	new->other->Bndtools->"Bnd OSGI Workspace" -> click next.  
 	navigate to your RCP-Workarea.  
 	choose the workspace 5.3 (we use it hier)  
 	create your BND-Workspace
     ![bndtools-Workspace](pic/bndworkspace.png "bndtools-Workspace")
- 
- 3. 
+ 2. create a Folder "rcp-app" next to cnf. 
+ 3. create in the Folder "rcp-app" an Eclipse RCP. (https://www.vogella.com/tutorials/EclipseRCP/article.html)
+ 4. 
