@@ -33,5 +33,5 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
 	 select the Folder rcpApp.  
      File->new->other->Bndtools->"Run Descriptor File (.bndrun)" click next.  
 	 select the Empty one  
-	 select rcpApp and give the follow Name: "RunRcpBnd"  
- 11. 
+	 select rcpApp and give the File a Name.
+ 11. copy the follow 
