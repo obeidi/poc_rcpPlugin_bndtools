@@ -36,7 +36,7 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
  11. add a "app" and "workspace" Folder in the RCP Application in the Folder "/rcpPlugin2".
  12. add BND-Nature to the RCP-Project that you build in "/rcpPlugin2"
     ![rcp-bnd-nature](pic/rcp-bnd-nature.png "rcp-bnd-nature") 
-    add the follow code in you bnd.bnd:
+    add the follow code in your bnd.bnd:
     ![bnd-BND](pic/bnd-bnd.png "bnd-BND")
 	[bnd.bn](./rcpPlugin2/bnd.bnd "bnd.bnd") 
  13. go in the Shell to the root and build with gradle, "gradle build".
@@ -48,4 +48,6 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
  15. copy the follow code in Run Descriptor: 
     [app.ui_macosx.cocoa.x86-64.bndrun](./rcpPlugin2/app.ui_macosx.cocoa.x86-64.bndrun "app.ui_macosx.cocoa.x86-64.bndrun") 
  16. build with gradle one more time 
- 17. 
+ 17. go to app.ui_macosx.cocoa.x86-64.bndrun 
+  and click on the play Button.  
+  ![playButton.png](./pic/playButton.png "playButton.png") 
