@@ -38,7 +38,7 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
     ![rcp-bnd-nature](pic/rcp-bnd-nature.png "rcp-bnd-nature") 
     add the follow code in your bnd.bnd:
     ![bnd-BND](pic/bnd-bnd.png "bnd-BND")
-	[bnd.bn](./rcpPlugin2/bnd.bnd "bnd.bnd") 
+	[click hier for the code bnd.bnd](./rcpPlugin2/bnd.bnd "bnd.bnd") 
  13. go in the Shell to the root and build with gradle, "gradle build".
  14. create a BNDtools "Run Descriptor File (.bndrun)".  
 	 select the Folder rcpApp.  
