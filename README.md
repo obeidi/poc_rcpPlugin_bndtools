@@ -45,8 +45,9 @@ Die Umsetzung ist an den GitHub Repo : https://github.com/peterkir/example.bnd.r
      File->new->other->Bndtools->"Run Descriptor File (.bndrun)" click next.  
 	 select the Empty one  
 	 select rcpApp and give the File a Name.
- 15. copy the follow code in Run Descriptor: 
-    [app.ui_macosx.cocoa.x86-64.bndrun](./rcpPlugin2/app.ui_macosx.cocoa.x86-64.bndrun "app.ui_macosx.cocoa.x86-64.bndrun") 
+ 15. copy the follow code in Run Descriptor:  
+    for mac : [app.ui_macosx.cocoa.x86-64.bndrun](./rcpPlugin2/app.ui_macosx.cocoa.x86-64.bndrun "app.ui_macosx.cocoa.x86-64.bndrun")  
+    for windows: [app.ui_win32.win32.x86-64.bndrun](./rcpPlugin2/app.ui_win32.win32.x86-64.bndrun "app.ui_win32.win32.x86-64.bndrun")   
  16. build with gradle one more time 
  17. go to app.ui_macosx.cocoa.x86-64.bndrun 
   and click on the play Button.  
