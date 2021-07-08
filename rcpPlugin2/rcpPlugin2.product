@@ -16,7 +16,6 @@
    <windowImages/>
 
    <plugins>
-      <plugin id="rcpPlugin2"/>
       <plugin id="com.sun.jna"/>
       <plugin id="com.sun.jna.platform"/>
       <plugin id="javax.annotation"/>
@@ -90,6 +89,8 @@
       <plugin id="org.w3c.dom.events"/>
       <plugin id="org.w3c.dom.smil"/>
       <plugin id="org.w3c.dom.svg"/>
+      <plugin id="plugin1"/>
+      <plugin id="rcpPlugin2"/>
    </plugins>
 
 
