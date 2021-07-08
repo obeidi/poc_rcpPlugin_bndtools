@@ -1,5 +1,37 @@
 .DS_Store
+_rt/
+
+# all target dirs
+target/
+build/
+out/
+bin/
+generated/
+cache/
+
+# IntelliJ.
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.metadata/
+.settings/
+.project
+.classpath
+
+# gradle
 .gradle/
-/generated/
-.metadata
-/bin/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore all files ending with ~
+*~ 
+Thumbs.db
+
